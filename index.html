@@ -1,0 +1,70 @@
+<!-- HTML5 document declaration -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Character encoding and viewport settings for responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title of the page -->
+    <title>📄 Word to Readme 📝</title>
+
+    <!-- Link to external stylesheet (style.css) -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- Green "Fork me" ribbon in top-right corner -->
+
+    <div id="fork-me-ribbon">
+      <a href="https://github.com/saboye/word2markdown" target="_blank"
+        ><img
+          src="https://camo.githubusercontent.com/36d5e3ee6b4f2b7c8f0fbc9ea1ebd37cd77cbb5/68747470733a272f272f72756c65732e6769746875622e696f75722066726f74273f66696c652d323031373130313131"
+          alt="Fork me on GitHub!"
+          width="60"
+      /></a>
+    </div>
+
+    <!-- Container element for the content -->
+    <div class="container">
+      <!-- Heading element with title of the page -->
+      <h1>📄 Word to Readme 📝</h1>
+
+      <!-- Brief description of the tool's purpose and functionality -->
+      <p style="text-align: center">
+        Easily convert your Word documents (.docx) to Markdown format and
+        download as <strong>README.md</strong> 🚀
+      </p>
+
+      <!-- Input field for file upload (accepts .docx files) -->
+      <input type="file" id="upload" accept=".docx" />
+
+      <!-- Button element for downloading the converted README.md file (initially hidden) -->
+      <button id="downloadBtn" style="display: none">
+        ⬇️ Download README.md
+      </button>
+
+      <!-- Pre element to display the converted Markdown code as a string of characters -->
+      <pre id="output"></pre>
+
+      <!-- Note with additional information and usage guidelines for the tool -->
+      <div class="note">
+        <strong>📢 Usage Note:</strong><br />
+        This tool is <strong>freely available online</strong> and hosted on
+        <a href="https://github.com" target="_blank">GitHub</a> 🌍.<br />
+        Perfect for developers who want to quickly turn documents into
+        GitHub-friendly README files with minimal effort. 🙌
+
+        <p style="text-align: center">
+          Want to take this tool to the next level? Click here to
+          <a href="https://github.com">Fork me</a> on GitHub! 🤔
+        </p>
+      </div>
+    </div>
+
+    <!-- External script tags linking to JavaScript libraries (Mammoth and Turndown) from CDN sources -->
+    <script src="https://unpkg.com/mammoth/mammoth.browser.min.js"></script>
+    <script src="https://unpkg.com/turndown/dist/turndown.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

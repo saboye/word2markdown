@@ -1,0 +1,124 @@
+/* Global font styles for the entire document */
+body {
+  /* Set default font family and background color */
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f4f9;
+
+  /* Set text color and padding for readability */
+  color: #333;
+  padding: 2rem;
+
+  /* Adjust line height for easier reading */
+  line-height: 1.6;
+}
+
+/* Styles for a container element that wraps the main content */
+.container {
+  /* Set maximum width and center horizontally */
+  max-width: 800px;
+  margin: auto;
+
+  /* Add background, padding, and rounded corners */
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for a heading element (h1) */
+h1 {
+  /* Set font size and make it look prominent */
+  font-size: 2rem;
+
+  /* Add margin below the heading for spacing */
+  margin-bottom: 1rem;
+
+  /* Center text within the heading */
+  text-align: center;
+}
+
+/* Styles for input[type="file"] and button elements */
+input[type="file"],
+button {
+  /* Display as blocks and center horizontally */
+  display: block;
+  margin: 1rem auto;
+
+  /* Add padding and rounded corners */
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #007bff;
+
+  /* Change cursor shape to indicate clickability */
+  color: white;
+  cursor: pointer;
+}
+
+/* Override styles for input[type="file"] elements specifically */
+input[type="file"] {
+  /* Set background and text colors for file inputs */
+  background: white;
+  color: #333;
+
+  /* Adjust border style for file inputs */
+  border: 1px solid #aaa;
+}
+
+/* Style changes when a button is hovered over */
+button:hover {
+  /* Change background color on hover */
+  background: #0056b3;
+}
+
+/* Styles for an output element (with id "output") */
+#output {
+  /* Set background, padding, and rounded corners */
+  background: #f0f0f0;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+
+  /* Use pre-wrap formatting within the output element */
+  white-space: pre-wrap;
+
+  /* Limit height and add overflow-y effect */
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Styles for a note element (with class "note") */
+.note {
+  /* Add margin top for spacing */
+  margin-top: 2rem;
+
+  /* Set font size and background color */
+  font-size: 0.95rem;
+  background: #e8f5e9;
+
+  /* Add padding, border-left, and rounded corners */
+  padding: 1rem;
+  border-left: 6px solid #4caf50;
+  border-radius: 6px;
+}
+#fork-me-ribbon {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.github-fork-ribbon {
+  background-color: #007200;
+  color: white;
+  text-align: center;
+  font: bold 13px Arial, sans-serif;
+  line-height: 20px;
+  padding: 5px 40px;
+  width: 180px;
+  transform: rotate(45deg);
+  transform-origin: top right;
+}
+
+.github-fork-ribbon img {
+  margin-right: -30px;
+}
