@@ -1,6 +1,7 @@
-# **Markdown Generator**
+# Markdown Generator
 
 A simple web application that converts uploaded Word documents (.docx) to Markdown text.
+[Live Demo](https://saboye.github.io/word2markdown/)
 
 **Features**
 
